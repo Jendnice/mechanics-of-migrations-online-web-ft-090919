@@ -5,7 +5,7 @@ class CreateArtists < ActiveRecord::Migration[5.2]
     create_table :artists do |t| 
       t.string :name 
       t.string :genre 
-      t.time :age 
+      t.string.to_i :age 
       t.string :hometown 
      end 
   end 
