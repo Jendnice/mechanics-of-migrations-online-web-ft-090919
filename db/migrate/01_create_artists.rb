@@ -8,6 +8,7 @@ class CreateArtists < ActiveRecord::Migration[5.2]
       t.Time.now.strftime("%Y").to_i :age 
       t.string :hometown 
      end 
+     binding.pry
   end 
   
 end 
